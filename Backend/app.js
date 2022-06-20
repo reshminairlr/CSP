@@ -1,3 +1,4 @@
+// import connectDB from './db.js'
 const express = require('express');
 const CustomerData = require('./src/model/Customerdata.js');
 const cors = require('cors');
@@ -9,8 +10,10 @@ app.use(bodyparser.json());
 
 const {mongoose}=require('./db.js');
 
+// const {connectDB}=require('./db.js');
 
 
+// connectDB()
 app.get('/customerview',async function(req,res){
   
     // res.header("Access-Control-Allow-Orgin","*")

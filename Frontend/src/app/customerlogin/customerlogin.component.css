@@ -1,0 +1,28 @@
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+
+    #heading{
+        font-size: large;
+        color: rgb(43, 41, 41);
+    }
+    #heading1{
+        color: rgb(0, 0, 0);
+    }
+    /* 
+    .bg {
+        /* The image used */
+        /* background-image: "../../assets/image/backgnd.jpg"; */
+      
+        /* Full height */
+        /* height: 100%;  */
+      
+        /* Center and scale the image nicely */
+         /* background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }  */
+
+       
