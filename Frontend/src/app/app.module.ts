@@ -11,12 +11,15 @@ import { CustomerserviceagentComponent } from './customerserviceagent/customerse
 import { ServiceteamComponent } from './serviceteam/serviceteam.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+
 import {HttpClientModule} from '@angular/common/http';
 
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
 import { FormsModule } from '@angular/forms';
+import { CustomerviewComponent } from './customerview/customerview.component';
+
 
 
 
@@ -28,7 +31,8 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     CustomerloginComponent,
     CustomerserviceagentComponent,
-    ServiceteamComponent
+    ServiceteamComponent,
+    CustomerviewComponent
   ],
   imports: [
     BrowserModule,
